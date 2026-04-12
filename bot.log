@@ -1,0 +1,24 @@
+2026-04-12 23:17:08,638 [INFO] Demarrage du Bot d'Affiliation Telegram v5.3
+2026-04-12 23:17:08,639 [INFO] Sessions : 13h00 et 20h00
+2026-04-12 23:17:08,639 [INFO] Top 10 offres par session
+2026-04-12 23:17:08,639 [INFO] Spotlight : 2 meilleures offres Amazon
+2026-04-12 23:17:08,645 [INFO] [SQLite] Base de donnees initialisee
+2026-04-12 23:17:08,952 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getMe "HTTP/1.1 200 OK"
+2026-04-12 23:17:08,955 [INFO] Application started
+2026-04-12 23:17:08,984 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-12 23:17:08,985 [INFO] [Bot] Ecoute des commandes active (/start)
+2026-04-12 23:17:09,019 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 400 Bad Request"
+2026-04-12 23:17:09,021 [ERROR] [Telegram] Erreur connexion : Chat not found
+2026-04-12 23:17:19,196 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:17:29,271 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:17:39,470 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:17:49,513 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:17:59,704 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:18:09,734 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:18:19,765 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:18:29,975 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:18:40,007 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:18:50,127 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:19:00,159 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:19:10,190 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-12 23:19:20,357 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
