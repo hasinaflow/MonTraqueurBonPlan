@@ -152,6 +152,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Reduit le bruit des logs HTTP de python-telegram-bot
+# A placer APRES logging.basicConfig pour que ca fonctionne
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("telegram").setLevel(logging.WARNING)
 
 # =====================================================================
 #  BASE DE DONNEES SQLITE
