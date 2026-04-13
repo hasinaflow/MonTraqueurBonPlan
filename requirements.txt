@@ -1,4 +1,5 @@
 Python-telegram-bot
+Python-dotenv
 beautifulsoup4
 Requests
 Feedparser
