@@ -2083,7 +2083,8 @@ class BotAffiliation:
 async def lancer_scan(bot_affiliation: BotAffiliation):
     """
     Boucle de surveillance qui attend les heures de publication.
-    Publie exactement 2 fois par jour : 13h00 et 20h00.
+    Tourne en tache de fond independante du polling Telegram.
+    En cas d'erreur dans une session, la boucle continue quand meme.
     """
     await bot_affiliation.expediteur.tester_connexion()
 
@@ -2100,72 +2101,96 @@ async def lancer_scan(bot_affiliation: BotAffiliation):
             )
             cle = f"{maintenant.date()}-{heure}"
             sessions_executees.add(cle)
-            await bot_affiliation.session_publication(heure)
+            try:
+                await bot_affiliation.session_publication(heure)
+            except Exception as e:
+                logger.error(f"[Session] Erreur session rattrapage : {e}")
             break
 
     while True:
-        maintenant  = datetime.now()
-        heure       = maintenant.hour
-        minute      = maintenant.minute
-        cle_session = f"{maintenant.date()}-{heure}"
+        try:
+            maintenant  = datetime.now()
+            heure       = maintenant.hour
+            minute      = maintenant.minute
+            cle_session = f"{maintenant.date()}-{heure}"
 
-        if (
-            heure in HEURES_PUBLICATION
-            and minute <= 30
-            and cle_session not in sessions_executees
-        ):
-            logger.info(f"[Planificateur] Lancement session {heure}h00")
-            sessions_executees.add(cle_session)
-            await bot_affiliation.session_publication(heure)
+            if (
+                heure in HEURES_PUBLICATION
+                and minute <= 30
+                and cle_session not in sessions_executees
+            ):
+                logger.info(
+                    f"[Planificateur] Lancement session {heure}h00"
+                )
+                sessions_executees.add(cle_session)
+                try:
+                    await bot_affiliation.session_publication(heure)
+                except Exception as e:
+                    # Une erreur dans la session ne tue pas la boucle
+                    logger.error(
+                        f"[Session] Erreur session {heure}h : {e}"
+                    )
 
-            if len(sessions_executees) > 100:
-                sessions_executees = set(list(sessions_executees)[-50:])
+                if len(sessions_executees) > 100:
+                    sessions_executees = set(
+                        list(sessions_executees)[-50:]
+                    )
+
+        except Exception as e:
+            logger.error(f"[Planificateur] Erreur inattendue : {e}")
 
         await asyncio.sleep(30)
 
 
-
 async def main():
     logger.info("Demarrage du Bot d'Affiliation Telegram v5.3")
-    logger.info(f"Sessions : {HEURES_PUBLICATION[0]}h00 et {HEURES_PUBLICATION[1]}h00")
+    logger.info(
+        f"Sessions : {HEURES_PUBLICATION[0]}h00 et "
+        f"{HEURES_PUBLICATION[1]}h00"
+    )
     logger.info(f"Top {MAX_OFFRES_PAR_SESSION} offres par session")
-    logger.info(f"Spotlight : {NB_SPOTLIGHT_AMAZON} meilleures offres Amazon")
+    logger.info(
+        f"Spotlight : {NB_SPOTLIGHT_AMAZON} meilleures offres Amazon"
+    )
 
     init_db()
 
-    # Construction de l'Application PTB v20+
     application = (
         Application.builder()
         .token(TELEGRAM_BOT_TOKEN)
         .build()
     )
-
-    # Enregistrement de la commande /start
     application.add_handler(CommandHandler("start", start_command))
 
-    # Creation du bot d'affiliation en reutilisant le Bot de l'Application
     bot_affiliation = BotAffiliation(application.bot)
 
-    # Initialisation de l'Application (sans bloquer)
     await application.initialize()
     await application.start()
-
-    # Demarrage du polling en arriere-plan (pour /start)
     await application.updater.start_polling(
         allowed_updates=["message"]
     )
     logger.info("[Bot] Ecoute des commandes active (/start)")
 
+    # CORRECTION CLE : lancer_scan tourne comme tache independante
+    # asyncio.create_task evite qu'une erreur de scan bloque le polling
+    # et evite que le polling bloque le scan
+    scan_task = asyncio.create_task(lancer_scan(bot_affiliation))
+
     try:
-        # Lancement du scan — tourne indefiniment
-        await lancer_scan(bot_affiliation)
-    except Exception as e:
-        logger.critical(f"Erreur critique dans lancer_scan : {e}")
+        # Attend indefiniment — le bot tourne jusqu'a KeyboardInterrupt
+        await asyncio.Event().wait()
+    except (KeyboardInterrupt, SystemExit):
+        logger.info("Signal d'arret recu.")
     finally:
-        # Arret propre
+        scan_task.cancel()
+        try:
+            await scan_task
+        except asyncio.CancelledError:
+            pass
         await application.updater.stop()
-        await application.stop()          # ← await manquant dans l'ancienne version
+        await application.stop()
         await application.shutdown()
+        logger.info("Bot arrete proprement.")
 
 
 if __name__ == "__main__":
