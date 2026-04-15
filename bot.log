@@ -549,3 +549,71 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
     raise exception
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-15 20:28:24,570 [INFO] Demarrage du Bot d'Affiliation Telegram v5.3
+2026-04-15 20:28:24,571 [INFO] Sessions : 11h00 et 18h00
+2026-04-15 20:28:24,571 [INFO] Top 10 offres par session
+2026-04-15 20:28:24,572 [INFO] Spotlight : 2 meilleures offres Amazon
+2026-04-15 20:28:24,574 [INFO] [SQLite] Base de donnees initialisee
+2026-04-15 20:28:24,915 [INFO] [Bot] Ecoute des commandes active (/start)
+2026-04-15 20:28:25,057 [INFO] [Telegram] Connexion OK
+2026-04-15 20:30:03,662 [INFO] Demarrage du Bot d'Affiliation Telegram v5.3
+2026-04-15 20:30:03,663 [INFO] Sessions : 11h00 et 20h00
+2026-04-15 20:30:03,663 [INFO] Top 10 offres par session
+2026-04-15 20:30:03,663 [INFO] Spotlight : 2 meilleures offres Amazon
+2026-04-15 20:30:03,664 [INFO] [SQLite] Base de donnees initialisee
+2026-04-15 20:30:03,973 [INFO] [Bot] Ecoute des commandes active (/start)
+2026-04-15 20:30:04,131 [INFO] [Telegram] Connexion OK
+2026-04-15 20:30:04,132 [INFO] [Planificateur] Demarrage tardif a 20:30 — lancement immediat session 20h
+2026-04-15 20:30:04,132 [INFO] ============================================================
+2026-04-15 20:30:04,132 [INFO] SESSION 20h -- 15/04/2026 20:30
+2026-04-15 20:30:04,133 [INFO] ============================================================
+2026-04-15 20:30:04,352 [WARNING] [Vitrine] Inaccessible : PS5 Console Sony PlayStation 5
+2026-04-15 20:30:04,553 [WARNING] [Vitrine] Inaccessible : PS5 Console Sony PlayStation 5
+2026-04-15 20:30:06,465 [INFO] [Vitrine] iPhone 14 Pro (Neuf) -> 109.0 EUR
+2026-04-15 20:30:08,186 [INFO] [Vitrine] iPhone 14 Pro (Reconditionne) -> 109.0 EUR
+2026-04-15 20:30:08,383 [WARNING] [Vitrine] Inaccessible : iPhone 16
+2026-04-15 20:30:08,620 [WARNING] [Vitrine] Inaccessible : iPhone 16
+2026-04-15 20:30:11,534 [INFO] [Vitrine] Manette DualSense PS5 (Neuf) -> 73.0 EUR
+2026-04-15 20:30:12,284 [INFO] [Scraper Amazon] 0 produits recuperes
+2026-04-15 20:30:12,286 [WARNING] [API Amazon] Cles PA-API non configurees. Skipping.
+2026-04-15 20:30:12,382 [INFO] [Scraper Cdiscount] 0 produits recuperes
+2026-04-15 20:30:12,541 [INFO] [Dealabs] Status : 404
+2026-04-15 20:30:12,541 [WARNING] [Dealabs] Bloque : erreur 404
+2026-04-15 20:30:12,639 [INFO] [RSS] frandroid_promos -> Status : 200
+2026-04-15 20:30:12,830 [INFO] [RSS] frandroid_promos -> 15 entrees
+2026-04-15 20:30:12,977 [INFO] [RSS] lesnumeriques_promos -> Status : 200
+2026-04-15 20:30:13,065 [INFO] [RSS] lesnumeriques_promos -> 40 entrees
+2026-04-15 20:30:13,154 [INFO] [RSS] 01net_promos -> Status : 200
+2026-04-15 20:30:13,251 [INFO] [RSS] 01net_promos -> 30 entrees
+2026-04-15 20:30:13,659 [INFO] [RSS] bdm_deals -> Status : 200
+2026-04-15 20:30:13,665 [INFO] [RSS] bdm_deals -> 0 entrees
+2026-04-15 20:30:13,789 [INFO] [RSS] korben -> Status : 200
+2026-04-15 20:30:13,968 [INFO] [RSS] korben -> 20 entrees
+2026-04-15 20:30:13,972 [INFO] Total brut collecte : 108
+2026-04-15 20:30:13,973 [INFO] Ignore (auto) : Couverture Voiture pour Benz E Class (4door) W212 
+2026-04-15 20:30:13,973 [INFO] Ignore (auto) : Couverture Voiture pour Benz E Class (4door) W212 
+2026-04-15 20:30:14,096 [INFO] Candidats eligibles apres filtrage : 18
+2026-04-15 20:30:14,097 [INFO] [Session] 10 offres selectionnees sur 18 candidats
+2026-04-15 20:30:17,801 [INFO] [Spotlight #1] Playstation Sony, Manette 5 officielle DualSense, 
+2026-04-15 20:30:17,801 [INFO] [Spotlight #1] Publie : Playstation Sony, Manette 5 officielle DualSense, 
+2026-04-15 20:30:23,331 [INFO] [Telegram] Publie : Quoi de mieux que de la 4K pour télétravailler ? C
+2026-04-15 20:30:23,337 [INFO] [Offre] Publiee : Quoi de mieux que de la 4K pour télétravailler ? C
+2026-04-15 20:30:28,805 [INFO] [Telegram] Publie : Le très complet Asus Vivobook S14 (AMD Ryzen AI 5,
+2026-04-15 20:30:28,810 [INFO] [Offre] Publiee : Le très complet Asus Vivobook S14 (AMD Ryzen AI 5,
+2026-04-15 20:30:34,304 [INFO] [Telegram] Publie : Pour la première fois en promo à moins de 200 € le
+2026-04-15 20:30:34,307 [INFO] [Offre] Publiee : Pour la première fois en promo à moins de 200 € le
+2026-04-15 20:30:39,904 [INFO] [Telegram] Publie : Boulanger n’hésite pas à baisser le prix de la tou
+2026-04-15 20:30:39,908 [INFO] [Offre] Publiee : Boulanger n’hésite pas à baisser le prix de la tou
+2026-04-15 20:30:45,385 [INFO] [Telegram] Publie : Ce laptop gaming surpuissant (Ultra 9, 32 Go de RA
+2026-04-15 20:30:45,390 [INFO] [Offre] Publiee : Ce laptop gaming surpuissant (Ultra 9, 32 Go de RA
+2026-04-15 20:30:51,177 [INFO] [Telegram] Publie : -31% pour ce casque premium à la réduction de brui
+2026-04-15 20:30:51,182 [INFO] [Offre] Publiee : -31% pour ce casque premium à la réduction de brui
+2026-04-15 20:30:56,868 [INFO] [Telegram] Publie : Ce TV 4K QLED Philips de 55 pouces avec Ambilight 
+2026-04-15 20:30:56,872 [INFO] [Offre] Publiee : Ce TV 4K QLED Philips de 55 pouces avec Ambilight 
+2026-04-15 20:31:02,643 [INFO] [Telegram] Publie : Boulanger casse le prix de cet écran 4K Mini LED M
+2026-04-15 20:31:02,648 [INFO] [Offre] Publiee : Boulanger casse le prix de cet écran 4K Mini LED M
+2026-04-15 20:31:08,429 [INFO] [Telegram] Publie : Bon plan – Le casque Bluetooth Sony WH-1000XM4 Ble
+2026-04-15 20:31:08,434 [INFO] [Offre] Publiee : Bon plan – Le casque Bluetooth Sony WH-1000XM4 Ble
+2026-04-15 20:31:13,439 [INFO] [Nettoyeur] 1 produits conserves
+2026-04-15 20:31:13,439 [INFO] [Session 20h] Termine -- 10 offre(s) publiee(s)
+

@@ -108,7 +108,7 @@ AMAZON_SECRET_KEY = os.getenv("AMAZON_SECRET_KEY", "")
 # ── Parametres de publication ─────────────────────────────────────────
 # Heures de publication journalieres (format 24h)
 # Le bot publie exactement 2 fois par jour a ces heures
-HEURES_PUBLICATION  = [13, 20]   # 13h00 et 20h00
+HEURES_PUBLICATION  = [11, 18]   # 13h00 et 20h00
 
 # Nombre maximum d'offres publiees par session
 MAX_OFFRES_PAR_SESSION = 10
