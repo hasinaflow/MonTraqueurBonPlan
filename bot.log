@@ -22,3 +22,530 @@
 2026-04-12 23:19:00,159 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
 2026-04-12 23:19:10,190 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
 2026-04-12 23:19:20,357 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:28:29,436 [INFO] Demarrage du Bot d'Affiliation Telegram v5.3
+2026-04-13 13:28:29,437 [INFO] Sessions : 13h00 et 20h00
+2026-04-13 13:28:29,437 [INFO] Top 10 offres par session
+2026-04-13 13:28:29,437 [INFO] Spotlight : 2 meilleures offres Amazon
+2026-04-13 13:28:29,440 [INFO] [SQLite] Base de donnees initialisee
+2026-04-13 13:28:29,975 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getMe "HTTP/1.1 200 OK"
+2026-04-13 13:28:29,978 [INFO] Application started
+2026-04-13 13:28:30,115 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/deleteWebhook "HTTP/1.1 200 OK"
+2026-04-13 13:28:30,117 [INFO] [Bot] Ecoute des commandes active (/start)
+2026-04-13 13:28:30,273 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:30,276 [INFO] [Telegram] Connexion OK
+2026-04-13 13:28:30,276 [INFO] [Planificateur] Demarrage tardif a 13:28 — lancement immediat session 13h
+2026-04-13 13:28:30,277 [INFO] ============================================================
+2026-04-13 13:28:30,277 [INFO] SESSION 13h -- 13/04/2026 13:28
+2026-04-13 13:28:30,277 [INFO] ============================================================
+2026-04-13 13:28:32,938 [INFO] [Scraper Amazon] 0 produits recuperes
+2026-04-13 13:28:32,941 [WARNING] [API Amazon] Cles PA-API non configurees. Skipping.
+2026-04-13 13:28:33,037 [INFO] [Scraper Cdiscount] 0 produits recuperes
+2026-04-13 13:28:33,219 [INFO] [Dealabs] Status : 404
+2026-04-13 13:28:33,220 [WARNING] [Dealabs] Bloque : erreur 404
+2026-04-13 13:28:33,303 [INFO] [RSS] frandroid_promos -> Status : 200
+2026-04-13 13:28:33,458 [INFO] [RSS] frandroid_promos -> 15 entrees
+2026-04-13 13:28:33,611 [INFO] [RSS] lesnumeriques_promos -> Status : 200
+2026-04-13 13:28:33,698 [INFO] [RSS] lesnumeriques_promos -> 40 entrees
+2026-04-13 13:28:33,793 [INFO] [RSS] 01net_promos -> Status : 200
+2026-04-13 13:28:33,886 [INFO] [RSS] 01net_promos -> 30 entrees
+2026-04-13 13:28:34,281 [INFO] [RSS] bdm_deals -> Status : 200
+2026-04-13 13:28:34,286 [INFO] [RSS] bdm_deals -> 0 entrees
+2026-04-13 13:28:34,417 [INFO] [RSS] korben -> Status : 200
+2026-04-13 13:28:34,551 [INFO] [RSS] korben -> 20 entrees
+2026-04-13 13:28:34,555 [INFO] Total brut collecte : 105
+2026-04-13 13:28:34,571 [INFO] Ignore (auto) : Decathlon brade cette excellente trottinette élect
+2026-04-13 13:28:34,585 [INFO] Ignore (auto) : Live Twitch des Nums : Gemini, GTA VI et recharge 
+2026-04-13 13:28:34,688 [INFO] Ignore (auto) : AIDGE - Du deep learning sur vos microcontrôleurs
+2026-04-13 13:28:34,691 [INFO] Candidats eligibles apres filtrage : 19
+2026-04-13 13:28:34,691 [INFO] [Session] 10 offres selectionnees sur 19 candidats
+2026-04-13 13:28:34,818 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:38,284 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:38,288 [INFO] [Telegram] Publie : Ce boitier Xiaomi transforme n’importe quel TV en 
+2026-04-13 13:28:38,294 [INFO] [Offre] Publiee : Ce boitier Xiaomi transforme n’importe quel TV en 
+2026-04-13 13:28:40,450 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:28:43,922 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:43,926 [INFO] [Telegram] Publie : L’iPad Pro 11 M4 est toujours une valeur sûre, sur
+2026-04-13 13:28:43,930 [INFO] [Offre] Publiee : L’iPad Pro 11 M4 est toujours une valeur sûre, sur
+2026-04-13 13:28:49,571 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:49,575 [INFO] [Telegram] Publie : Amazon casse le prix des écouteurs pas chers de Sa
+2026-04-13 13:28:49,579 [INFO] [Offre] Publiee : Amazon casse le prix des écouteurs pas chers de Sa
+2026-04-13 13:28:50,650 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:28:55,027 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:28:55,031 [INFO] [Telegram] Publie : Ce nouvel aspirateur balai Xiaomi avec une multitu
+2026-04-13 13:28:55,036 [INFO] [Offre] Publiee : Ce nouvel aspirateur balai Xiaomi avec une multitu
+2026-04-13 13:29:00,649 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:00,654 [INFO] [Telegram] Publie : Ce laptop MSI avec écran 240 Hz et un combo Ultra 
+2026-04-13 13:29:00,658 [INFO] [Offre] Publiee : Ce laptop MSI avec écran 240 Hz et un combo Ultra 
+2026-04-13 13:29:00,701 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:29:06,256 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:06,260 [INFO] [Telegram] Publie : Boulanger fait chuter le prix de cet écran PC OLED
+2026-04-13 13:29:06,264 [INFO] [Offre] Publiee : Boulanger fait chuter le prix de cet écran PC OLED
+2026-04-13 13:29:10,926 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:29:11,489 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:11,493 [INFO] [Telegram] Publie : À moins de 100 €, ce robot aspirateur-laveur Xiaom
+2026-04-13 13:29:11,498 [INFO] [Offre] Publiee : À moins de 100 €, ce robot aspirateur-laveur Xiaom
+2026-04-13 13:29:16,709 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:16,714 [INFO] [Telegram] Publie : Oui, ce TV 4K QD-Mini LED de 50″ à 144 Hz coûte ré
+2026-04-13 13:29:16,718 [INFO] [Offre] Publiee : Oui, ce TV 4K QD-Mini LED de 50″ à 144 Hz coûte ré
+2026-04-13 13:29:20,963 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:29:21,934 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:21,938 [INFO] [Telegram] Publie : Pensé pour dominer la photo sur smartphone, l’Oppo
+2026-04-13 13:29:21,942 [INFO] [Offre] Publiee : Pensé pour dominer la photo sur smartphone, l’Oppo
+2026-04-13 13:29:27,146 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/sendMessage "HTTP/1.1 200 OK"
+2026-04-13 13:29:27,150 [INFO] [Telegram] Publie : Le MSI Prestige 16 AI+ (Intel Core Ultra Série 3, 
+2026-04-13 13:29:27,155 [INFO] [Offre] Publiee : Le MSI Prestige 16 AI+ (Intel Core Ultra Série 3, 
+2026-04-13 13:29:31,203 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:29:32,164 [INFO] [Session 13h] Termine -- 10 offre(s) publiee(s)
+
+2026-04-13 13:29:41,253 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:29:51,365 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:01,400 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:11,432 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:21,705 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:31,742 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:41,779 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:30:51,939 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:31:01,976 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:31:12,010 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:31:20,251 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:31:30,450 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 13:31:40,528 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:05,722 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:15,772 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:26,054 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:36,130 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:46,164 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:29:56,194 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:06,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:16,252 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:26,280 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:36,468 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:46,497 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:30:56,525 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:06,698 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:16,775 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:26,802 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:36,930 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:46,963 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:31:56,999 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:07,030 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:17,058 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:27,086 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:37,268 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:47,467 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:32:57,494 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:07,745 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:17,773 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:27,803 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:37,975 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:48,003 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:33:58,227 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:08,453 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:18,483 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:28,605 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:38,805 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:48,835 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:34:58,865 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:08,913 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:18,985 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:29,067 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:39,095 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:49,343 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:35:59,453 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:36:09,621 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:36:19,788 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:36:29,819 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:36:40,098 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:36:50,297 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:00,326 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:10,451 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:20,650 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:30,678 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:40,708 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:37:50,881 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:01,081 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:11,112 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:21,235 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:31,267 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:41,298 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:38:51,331 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:01,374 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:11,482 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:21,512 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:31,907 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:41,936 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:39:52,173 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:02,374 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:12,449 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:22,479 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:32,718 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:42,749 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:40:53,003 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:03,080 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:13,279 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:23,311 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:33,354 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:43,510 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:41:53,713 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:03,745 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:13,943 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:23,974 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:34,018 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:44,047 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:42:54,219 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:43:04,249 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 19:43:14,280 [INFO] HTTP Request: POST https://api.telegram.org/bot8779017743:AAGCfhQntSAssgUWf6bJSK5VQfPP5NTGlvU/getUpdates "HTTP/1.1 200 OK"
+2026-04-13 20:30:44,676 [INFO] Demarrage du Bot d'Affiliation Telegram v5.3
+2026-04-13 20:30:44,676 [INFO] Sessions : 13h00 et 20h00
+2026-04-13 20:30:44,677 [INFO] Top 10 offres par session
+2026-04-13 20:30:44,677 [INFO] Spotlight : 2 meilleures offres Amazon
+2026-04-13 20:30:44,679 [INFO] [SQLite] Base de donnees initialisee
+2026-04-13 20:30:45,014 [INFO] [Bot] Ecoute des commandes active (/start)
+2026-04-13 20:30:45,141 [INFO] [Telegram] Connexion OK
+2026-04-13 20:30:45,142 [INFO] [Planificateur] Demarrage tardif a 20:30 — lancement immediat session 20h
+2026-04-13 20:30:45,142 [INFO] ============================================================
+2026-04-13 20:30:45,142 [INFO] SESSION 20h -- 13/04/2026 20:30
+2026-04-13 20:30:45,142 [INFO] ============================================================
+2026-04-13 20:30:45,355 [WARNING] [Vitrine] Inaccessible : PS5 Console Sony PlayStation 5
+2026-04-13 20:30:45,545 [WARNING] [Vitrine] Inaccessible : PS5 Console Sony PlayStation 5
+2026-04-13 20:30:47,565 [INFO] [Vitrine] iPhone 14 Pro (Neuf) -> 109.0 EUR
+2026-04-13 20:30:49,246 [INFO] [Vitrine] iPhone 14 Pro (Reconditionne) -> 109.0 EUR
+2026-04-13 20:30:49,253 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:30:49,437 [WARNING] [Vitrine] Inaccessible : iPhone 16
+2026-04-13 20:30:49,621 [WARNING] [Vitrine] Inaccessible : iPhone 16
+2026-04-13 20:30:52,594 [INFO] [Vitrine] Manette DualSense PS5 (Neuf) -> 73.0 EUR
+2026-04-13 20:30:53,377 [INFO] [Scraper Amazon] 0 produits recuperes
+2026-04-13 20:30:53,380 [WARNING] [API Amazon] Cles PA-API non configurees. Skipping.
+2026-04-13 20:30:53,472 [INFO] [Scraper Cdiscount] 0 produits recuperes
+2026-04-13 20:30:53,626 [INFO] [Dealabs] Status : 404
+2026-04-13 20:30:53,626 [WARNING] [Dealabs] Bloque : erreur 404
+2026-04-13 20:30:53,728 [INFO] [RSS] frandroid_promos -> Status : 200
+2026-04-13 20:30:53,878 [INFO] [RSS] frandroid_promos -> 15 entrees
+2026-04-13 20:30:54,027 [INFO] [RSS] lesnumeriques_promos -> Status : 200
+2026-04-13 20:30:54,113 [INFO] [RSS] lesnumeriques_promos -> 40 entrees
+2026-04-13 20:30:54,202 [INFO] [RSS] 01net_promos -> Status : 200
+2026-04-13 20:30:54,294 [INFO] [RSS] 01net_promos -> 30 entrees
+2026-04-13 20:30:54,713 [INFO] [RSS] bdm_deals -> Status : 200
+2026-04-13 20:30:54,718 [INFO] [RSS] bdm_deals -> 0 entrees
+2026-04-13 20:30:54,819 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:30:54,848 [INFO] [RSS] korben -> Status : 200
+2026-04-13 20:30:54,997 [INFO] [RSS] korben -> 20 entrees
+2026-04-13 20:30:55,001 [INFO] Total brut collecte : 108
+2026-04-13 20:30:55,002 [INFO] Ignore (auto) : Couverture Voiture pour Benz E Class (4door) W212 
+2026-04-13 20:30:55,003 [INFO] Ignore (auto) : Couverture Voiture pour Benz E Class (4door) W212 
+2026-04-13 20:30:55,048 [INFO] Ignore (auto) : Leasing social 2026 : face au gazole à 2,30 euros,
+2026-04-13 20:30:55,049 [INFO] Ignore (auto) : Tesla : fin de partie pour le piratage de la condu
+2026-04-13 20:30:55,061 [INFO] Ignore (auto) : Live Twitch des Nums : Gemini, GTA VI et recharge 
+2026-04-13 20:30:55,150 [INFO] Candidats eligibles apres filtrage : 11
+2026-04-13 20:30:55,150 [INFO] [Session] 10 offres selectionnees sur 11 candidats
+2026-04-13 20:30:58,824 [INFO] [Spotlight #1] Playstation Sony, Manette 5 officielle DualSense, 
+2026-04-13 20:30:58,825 [INFO] [Spotlight #1] Publie : Playstation Sony, Manette 5 officielle DualSense, 
+2026-04-13 20:31:01,662 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:31:04,279 [INFO] [Telegram] Publie : Cet écran PC gaming OLED 4K 240 Hz par Samsung élè
+2026-04-13 20:31:04,284 [INFO] [Offre] Publiee : Cet écran PC gaming OLED 4K 240 Hz par Samsung élè
+2026-04-13 20:31:07,684 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:31:09,808 [INFO] [Telegram] Publie : Malgré la hausse des prix de la mémoire et du stoc
+2026-04-13 20:31:09,812 [INFO] [Offre] Publiee : Malgré la hausse des prix de la mémoire et du stoc
+2026-04-13 20:31:15,257 [INFO] [Telegram] Publie : Boulanger déstocke la Garmin Vivoactive 5 à -46%, 
+2026-04-13 20:31:15,261 [INFO] [Offre] Publiee : Boulanger déstocke la Garmin Vivoactive 5 à -46%, 
+2026-04-13 20:31:16,191 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:31:20,722 [INFO] [Telegram] Publie : Cet immense TV OLED Samsung de 77 pouces et 144 Hz
+2026-04-13 20:31:20,727 [INFO] [Offre] Publiee : Cet immense TV OLED Samsung de 77 pouces et 144 Hz
+2026-04-13 20:31:26,429 [INFO] [Telegram] Publie : Amazon brade à -30 % son pack de 2 Ring Outdoor Ca
+2026-04-13 20:31:26,434 [INFO] [Offre] Publiee : Amazon brade à -30 % son pack de 2 Ring Outdoor Ca
+2026-04-13 20:31:28,994 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:31:31,874 [INFO] [Telegram] Publie : Bon plan – L'imprimante photo portable Fujifilm In
+2026-04-13 20:31:31,878 [INFO] [Offre] Publiee : Bon plan – L'imprimante photo portable Fujifilm In
+2026-04-13 20:31:37,568 [INFO] [Telegram] Publie : Honor Pad X8a : idéale pour les petits budgets, ce
+2026-04-13 20:31:37,573 [INFO] [Offre] Publiee : Honor Pad X8a : idéale pour les petits budgets, ce
+2026-04-13 20:31:43,054 [INFO] [Telegram] Publie : Redmi Note 15 Pro : il chute à -45% ce lundi, Xiao
+2026-04-13 20:31:43,060 [INFO] [Offre] Publiee : Redmi Note 15 Pro : il chute à -45% ce lundi, Xiao
+2026-04-13 20:31:48,325 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:31:48,466 [INFO] [Telegram] Publie : DJI Mini 4K : la FNAC foudroie le prix de cet exce
+2026-04-13 20:31:48,471 [INFO] [Offre] Publiee : DJI Mini 4K : la FNAC foudroie le prix de cet exce
+2026-04-13 20:31:53,486 [INFO] [Nettoyeur] 1 produits conserves
+2026-04-13 20:31:53,487 [INFO] [Session 20h] Termine -- 10 offre(s) publiee(s)
+
+2026-04-13 20:32:35,185 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:33:09,457 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-04-13 20:33:43,520 [ERROR] Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 672, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 4865, in get_updates
+    await self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running

@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: mon-bot-deals-tech
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python affiliate_bot.py

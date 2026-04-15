@@ -35,14 +35,15 @@ pip install -r requirements.txt
 3. Configuration (.env)
 Créez un fichier .env à la racine du projet et ajoutez vos accès 
 
-TELEGRAM_TOKEN=votre_token_ici
-CHANNEL_ID=@votre_canal_ici
+TELEGRAM_BOT_TOKEN=votre_token_ici
+TELEGRAM_CHANNEL_ID=-100*******
+TELEGRAM_CANAL_USERNAME=@votre_canal_ici
 AFFILIATE_TAG=votre_tag_ici
 
 🚀 Utilisation
 Pour lancer le bot en local :
 
-python bot.py
+affiliate_bot.py
 
 Le bot va créer automatiquement un fichier database.db pour gérer l'historique des posts.
 📈 Stratégie Marketing
