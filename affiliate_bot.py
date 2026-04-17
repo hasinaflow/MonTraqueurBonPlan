@@ -108,7 +108,7 @@ AMAZON_SECRET_KEY = os.getenv("AMAZON_SECRET_KEY", "")
 # ── Parametres de publication ─────────────────────────────────────────
 # Heures de publication journalieres (format 24h)
 # Le bot publie exactement 2 fois par jour a ces heures
-HEURES_PUBLICATION  = [11, 18]   # 13h00 et 20h00
+HEURES_PUBLICATION  = [13, 20]   # 13h00 et 20h00
 
 # Nombre maximum d'offres publiees par session
 MAX_OFFRES_PAR_SESSION = 10
@@ -152,10 +152,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Reduit le bruit des logs HTTP de python-telegram-bot
-# A placer APRES logging.basicConfig pour que ca fonctionne
+# Reduit le bruit des logs HTTP Telegram sur Railway
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("telegram").setLevel(logging.WARNING)
+
 
 # =====================================================================
 #  BASE DE DONNEES SQLITE
@@ -482,7 +482,7 @@ class Scraper:
                     logger.warning(f"[Vitrine] Inaccessible : {nom}")
                     continue
 
-                soup = BeautifulSoup(response.text, "lxml")
+                soup = BeautifulSoup(response.text, "html.parser")
 
                 titre_el = soup.select_one("#productTitle")
                 titre = titre_el.get_text(strip=True) if titre_el else nom
@@ -552,7 +552,7 @@ class Scraper:
             session = requests.Session()
             response = session.get(url, headers=self.HEADERS, timeout=15)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, "lxml")
+            soup = BeautifulSoup(response.text, "html.parser")
 
             cartes = soup.select("div[data-testid='grid-unit']")
 
@@ -700,7 +700,7 @@ class Scraper:
         try:
             response = requests.get(url, headers=self.HEADERS, timeout=15)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, "lxml")
+            soup = BeautifulSoup(response.text, "html.parser")
             cartes = soup.select("li.prdtBILi")
 
             for carte in cartes:
@@ -2083,8 +2083,9 @@ class BotAffiliation:
 async def lancer_scan(bot_affiliation: BotAffiliation):
     """
     Boucle de surveillance qui attend les heures de publication.
-    Tourne en tache de fond independante du polling Telegram.
-    En cas d'erreur dans une session, la boucle continue quand meme.
+    Publie exactement 2 fois par jour aux heures configurees.
+    Tourne comme tache independante via asyncio.create_task.
+    Chaque erreur de session est catchee pour ne pas tuer la boucle.
     """
     await bot_affiliation.expediteur.tester_connexion()
 
@@ -2126,7 +2127,7 @@ async def lancer_scan(bot_affiliation: BotAffiliation):
                 try:
                     await bot_affiliation.session_publication(heure)
                 except Exception as e:
-                    # Une erreur dans la session ne tue pas la boucle
+                    # Une erreur dans une session ne tue pas la boucle
                     logger.error(
                         f"[Session] Erreur session {heure}h : {e}"
                     )
@@ -2143,7 +2144,15 @@ async def lancer_scan(bot_affiliation: BotAffiliation):
 
 
 async def main():
-    logger.info("Demarrage du Bot d'Affiliation Telegram v5.3")
+    """
+    Point d'entree principal.
+    Architecture Railway-compatible :
+      - Application PTB v22 gere les commandes /start via polling
+      - lancer_scan tourne en parallele via asyncio.create_task
+      - asyncio.Event().wait() maintient le bot en vie indefiniment
+      - Arret propre sur KeyboardInterrupt ou SystemExit
+    """
+    logger.info("Demarrage du Bot d'Affiliation Telegram v5.4")
     logger.info(
         f"Sessions : {HEURES_PUBLICATION[0]}h00 et "
         f"{HEURES_PUBLICATION[1]}h00"
@@ -2155,33 +2164,58 @@ async def main():
 
     init_db()
 
+    # Construction de l'Application PTB v22
     application = (
         Application.builder()
         .token(TELEGRAM_BOT_TOKEN)
         .build()
     )
+
+    # Enregistrement des commandes
     application.add_handler(CommandHandler("start", start_command))
 
+    # Bot d'affiliation partage le meme Bot que l'Application
     bot_affiliation = BotAffiliation(application.bot)
 
+    # Initialisation et demarrage de l'Application
     await application.initialize()
     await application.start()
+
+    # Polling Telegram pour recevoir les commandes /start
     await application.updater.start_polling(
-        allowed_updates=["message"]
+        allowed_updates=Update.ALL_TYPES
     )
     logger.info("[Bot] Ecoute des commandes active (/start)")
 
-    # CORRECTION CLE : lancer_scan tourne comme tache independante
-    # asyncio.create_task evite qu'une erreur de scan bloque le polling
-    # et evite que le polling bloque le scan
-    scan_task = asyncio.create_task(lancer_scan(bot_affiliation))
+    # CLE : lancer_scan comme tache independante
+    # create_task permet au scan et au polling de tourner en parallele
+    # sans que l'un bloque l'autre
+    scan_task = asyncio.create_task(
+        lancer_scan(bot_affiliation),
+        name="scan_task"
+    )
+
+    stop_event = asyncio.Event()
+
+    def handle_stop():
+        stop_event.set()
+
+    loop = asyncio.get_event_loop()
+    try:
+        import signal
+        loop.add_signal_handler(signal.SIGTERM, handle_stop)
+        loop.add_signal_handler(signal.SIGINT,  handle_stop)
+    except (NotImplementedError, AttributeError):
+        # Windows ne supporte pas add_signal_handler
+        pass
 
     try:
-        # Attend indefiniment — le bot tourne jusqu'a KeyboardInterrupt
-        await asyncio.Event().wait()
+        # Attend indefiniment jusqu'a un signal d'arret
+        await stop_event.wait()
     except (KeyboardInterrupt, SystemExit):
         logger.info("Signal d'arret recu.")
     finally:
+        logger.info("Arret propre du bot...")
         scan_task.cancel()
         try:
             await scan_task
