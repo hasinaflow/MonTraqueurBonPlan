@@ -82,8 +82,10 @@ class EbookAIAgent:
             page = pdf[idx]
             pil_image = page.render(scale=2.0).to_pil()
             with tempfile.NamedTemporaryFile(suffix=".jpg", delete=True) as tmp:
-                pil_image.save(tmp.name, format="JPEG", quality=88, optimize=True)
-                raw = Path(tmp.name).read_bytes()
+                pil_image.save(tmp, format="JPEG", quality=88, optimize=True)
+                tmp.flush()
+                tmp.seek(0)
+                raw = tmp.read()
             encoded = base64.b64encode(raw).decode("utf-8")
             uris.append(f"data:image/jpeg;base64,{encoded}")
 
